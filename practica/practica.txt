@@ -1,2 +1,6 @@
 Git clase 3
 otra linea mas
+otra
+
+git checkout
+git log
