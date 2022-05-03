@@ -4,3 +4,5 @@ otra
 
 git checkout
 git log
+
+seguimos con los comandos
