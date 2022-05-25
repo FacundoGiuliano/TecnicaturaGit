@@ -1,9 +1,0 @@
-Git clase 3
-otra linea mas
-otra
-
-git checkout
-git log
-
-seguimos con los comandos
-asdasd
