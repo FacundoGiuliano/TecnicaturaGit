@@ -145,19 +145,110 @@ print(resultado)
 resultado = d >= b  # mayor o igual que
 print(resultado)
 
+Ejercicio 1:
+
 num = int(input("Digite un numero: "))
 print(f"El residuo de la division es: {num % 2}")
 if num % 2 == 0:
     print(f"El numero ingresado: {num} es par")
 else:
     print("El numero ingresado es impar")
-"""
+
+Ejercicio 2:
 
 edad = int(input("Ingrese su edad: "))
 if edad >= 18:
     print("Eres mayor de edad")
 else:
     print("Eres menor de edad")
+
+#Operadores Logicos
+
+a = True
+b = True
+resultado = a and b
+print(resultado)
+
+resultado = a or b
+print(resultado)
+
+resultado = not a
+print(resultado)
+
+#Ejercicio:valor dentro de un rango
+
+num = int((input("Digite un numero:")))
+if num >= 0 and num <= 5:
+    print(f"El valor {num} se encuentra dentro del rango")
+else:
+    print(f"El valor {num} esta fuera del rango")
+
+# Ejercicio con el operador or, operador not
+
+vacaciones = False
+diaDescanso = True
+if not (vacaciones or diaDescanso):
+    print("Puede asistir al juego")
+else:
+    print("Tiene trabajo que hacer")
+
+#Ejercicio: Rango entre las edades 20 y 30 años
+
+edad = int(input("Digite su edad: "))
+if edad >= 20 and edad < 30 or edad >= 30 and edad <40:
+    print(f"La edad ingresada: {edad} se encuentra dentro del rango")
+else:
+    print(f"La edad ingresada: {edad} no esta dentro del rango")
+
+edad = int(input("Digite su edad: "))
+#veinte = edad >= 20 and edad < 30
+#print(veinte)
+#treinta = edad >= 30 and edad < 40
+#print(treinta)
+
+#if veinte or treinta:
+#    if veinte:
+#        print("Estas dentro del rango de los 20's años")
+#    elif treinta:
+#        print("Estas dentro del rango de los 30's años")
+#    else:
+#        print("No estas dentro del rango de 20's ni 30's años")
+#else:
+#    print("No estas dentro del rango")
+#Sintaxis simplificada
+if (20 <= edad < 30) or (30 <= edad < 40):
+    print(f"La edad ingresada: {edad} se encuentra dentro del rango")
+else:
+    print(f"La edad ingresada: {edad} no esta dentro del rango")
+
+#Ejercicio: El mayor de dos numeros
+
+num1 = int(input("Digite el valor para el numero1: "))
+num2 = int(input("Digite el valor para el numero2: "))
+if num1 > num2:
+    print("El numero1 es el mayor")
+else:
+    print("El numero2 es el mayor")
+"""
+#Ejercicio: tienda de libros
+print("Ingrese los siguientes datos del libro: ")
+nombre = input("Nombre del libro: ")
+idLibro = input("ID: ")
+precio = input("Precio: ")
+envio = input("Indique si el envio es gratuito (True/False): ")
+if envio == "True":
+    envio = True
+elif envio == "False":
+    envio = False
+else:
+    envio = "El valor ingresado es incorrecto"
+print(f'''
+        Nombre: {nombre}
+        ID: {idLibro}
+        Precio: {precio}
+        Envio Gratuito?: {envio}
+''')
+
 
 
 
