@@ -290,7 +290,7 @@ print("Tenemos cargados en el diccionario la cantidad de jugadores: ", end=" ")
 print(len(seleccionArgentina))
 
 # pilas usando listas
-pila = [1,2,3]
+pila = [1, 2, 3]
 
 #agregar elementos a la pila por el final
 pila.append(4)
@@ -331,7 +331,9 @@ seRetira = cola.pop(0)
 print(f"Atendido: {seRetira}")
 print(cola)
 
-
+# Recorrer un diccionario con ciclo for
+for i in seleccionArgentina:
+    print(f"{i} -> {seleccionArgentina[i]}")
 
 
 
