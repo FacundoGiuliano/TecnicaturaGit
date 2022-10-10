@@ -1,5 +1,5 @@
 
-var nombre = "Facundo";
-nombre = "Facundo \nGabriel\n";
-var apellido = "Giuliano";
+var nombre = "Ariel";
+nombre = "Alberto \nAriel\n";
+var apellido = "Betancud";
 console.log(nombre+apellido);
