@@ -6,7 +6,11 @@ realmente diriamos que es identica
 */
 
 var nombre = 'Ariel'; //Tipo Str
-console.log(nombre);
+console.log(typeof nombre);
+numero = 7;
+console.log(typeof numero)
+nombre = 12.3;
+console.log(typeof nombre);    
 
 var numero = 3000; // Tipo Numérico
 console.log(numero);
@@ -24,16 +28,16 @@ var bandera = true;
 console.log(typeof bandera);
 
 //Tipo de dato funcion
-function miFuncion(){}
+function miFuncion() {}
 console.log(typeof miFuncion);
 
-//Tipo de dato symbol
+//Tipo de dato Syembol
 var simbolo = Symbol("Mi simbolo");
 console.log(simbolo);
 
-//Tipo de dato clase
-class Persona{
-    constructor(nombre,apellido){
+//Tipo de dato clase (en js es una funcion)
+class Persona {
+    constructor(nombre,apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
     }
@@ -43,11 +47,28 @@ console.log(typeof Persona);
 
 //Tipo de dato undefined
 var x;
-console.log(x);
+console.log(typeof x); 
 
 x = undefined;
 console.log(typeof x);
 
 // null: significa ausencia de valor
-var y = null; //null no es un tipo de dato, pero su origen es de tipo object
+
+var y = null; // null no es un tipo de dato pero su origen es object
 console.log(typeof y);
+
+// Tipo de dato array y Empty String
+var autos = ["Citroen", "Audi", "BMW"];
+console.log(autos);
+console.log(typeof autos);
+
+var z = "";
+console.log(z);
+console.log(typeof z);
+
+
+
+
+
+
+

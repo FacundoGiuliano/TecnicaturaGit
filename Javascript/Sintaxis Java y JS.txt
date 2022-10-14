@@ -1,0 +1,41 @@
+Sistaxis similares en tre java y js
+Operadores simplificados
++=
+-=
+*=
+/=
+Operadores artimeticos
++
+-
+*
+/
+Operadores de asignacion
+=
+Operadores de comparacion
+==
+Comentarios
+// = una linea
+/* */ = multiples lineas
+Secuencias de Escape
+\' = Mostrar comilla simple en una cadena
+\" = Mostrar doble comilla en una cadena
+\\ = Mostrar una diagonal inversa en una cadena
+\n = Salto de linea
+\r = Retorno
+\t = Tabulacion
+\b = Retroceso
+\f = Salto de pagina
+Operador de aumento
+++
+Decremento
+--
+
+
+
+
+
+
+
+
+
+
