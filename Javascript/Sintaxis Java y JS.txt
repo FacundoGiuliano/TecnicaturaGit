@@ -1,18 +1,26 @@
 Sistaxis similares en tre java y js
-Operadores simplificados
+Operadores simplificados/compuestos tambien asignan
 +=
 -=
 *=
 /=
+%=
+**=
+
 Operadores artimeticos
 +
 -
 *
 /
+%
+**
+
 Operadores de asignacion
 =
 Operadores de comparacion
-==
+== Revisa el valor sin importar el tipo
+=== Revisa el valor y el tipo
+
 Comentarios
 // = una linea
 /* */ = multiples lineas
@@ -27,12 +35,23 @@ Secuencias de Escape
 \f = Salto de pagina
 Operador de aumento
 ++
+let z = ++a; //PreIncremento
+let z = a++; //Posincremento
+
 Decremento
 --
+let z = ++a; //PreDecrecremento
+let z = a++; //Posdecrecremento
 
+Operador distinto
+!= 
+!== comprueba el valor y el tipo
 
-
-
+Operadores relacionales
+<
+>
+<=
+>=
 
 
 
